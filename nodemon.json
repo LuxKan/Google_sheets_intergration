@@ -1,0 +1,6 @@
+{
+  "watch": ["app.ts", "index.ts", "configs", "controllers", "routes", "middlewares"],
+  "ext": "ts,js",
+  "ignore": ["dist", "node_modules"],
+  "exec": "ts-node --transpile-only index.ts"
+} 
